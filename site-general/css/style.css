@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    background-color: #000;
+    height: 105px;
+}
+.up-block {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.h-img {
+    width: 130px;
+    height: 40px;
+}
+.h-img:hover {
+    cursor: pointer;
+}
+.links {
+    margin: 10px 300px;
+}
+header a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px;
+}
+header a:hover {
+    text-decoration: underline;
+    color: #b8a269;
+}
+header button {
+    background-color: #b8a269;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    width: 233px;
+    height: 40px;
+}
+header button:hover {
+    background-color: #b8a269a1;
+    cursor: pointer;
+}
+section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1a1a1a;
+}
+.first-block {
+    background-image: linear-gradient(rgba(10, 10, 10, .3)), url(../images/background\ ing\ 1.jpg);
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    color: #fff;
+}
+.first-block h2 {
+    margin: 0;
+    padding-top: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.first-block h1 {
+    margin: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.first-block button {
+    color: #fff;
+    background-color: #b8a269;
+    text-transform: uppercase;
+    width: 318px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    border: 0;
+}
+.first-block button:hover {
+    color: #b8a269;
+    background-color: #fff;
+    cursor: pointer;
+}
+.first-block a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.first-block a:hover {
+    color: #ffffffa1;
+    text-decoration: underline #b8a269;
+}
+.barber-service {
+    margin-top: 70px;
+    color: #fff;
+    text-align: center;
+}
+.barber-service h1 {
+    margin: 0;
+    font-size: 60px;
+}
+.barber-service p {
+    font-size: 16px;
+}
+.h_k {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.b_s img {
+    width: 549px;
+    height: 526px;
+    margin-right: 120px;
+}
+.h_s img {
+    margin: auto;
+    width: 89px;
+    height: 89px;
+    padding-top: 60px;
+}
+.b_k img {
+    margin: auto;
+    width: 89px;
+    height: 89px;
+    padding-top: 60px;
+}
+.h_s h1 {
+    font-size: 30px;
+    margin: 15px;
+}
+.b_k h1 {
+    font-size: 30px;
+    margin: 15px;
+}
+.hair {
+    background-color: #b8a269;
+    width: 365px;
+    height: 253px;
+    margin: 0 10px 20px 0;
+}
+.shaving{
+    background-color: #b8a269;
+    width: 365px;
+    height: 253px;
+    margin: 0 30px 20px 0;
+}
+.beard {
+    background-color: #b8a269;
+    width: 365px;
+    height: 253px;
+    margin: 0 10px 20px 0;
+}
+.kids {
+    background-color: #b8a269;
+    width: 365px;
+    height: 253px;
+    margin: 0 10px 20px 0;
+}
+.barber-service a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.barber-service a:hover {
+    color: #ffffffa1;
+    text-decoration: underline #b8a269;
+}
+.our-service {
+    margin: auto;
+    margin-top: 90px;
+    color: #fff;
+    text-align: center;
+}
+.our-service h1 {
+    font-size: 40px;
+}
+.our-1 {
+    display: flex;
+    justify-content: center;
+}
+.our-1 img {
+    width: 348px;
+    height: 309px;
+}
+.our-2 {
+    display: flex;
+    justify-content: center;
+}
+.our-2 img {
+    width: 348px;
+    height: 309px;
+}
+.haircuts {
+    margin: 10px;
+}
+.haircuts p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.bread_more {
+    margin: 10px;
+}
+.bread_more p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.shaving-o {
+    margin: 10px;
+}
+.shaving-o p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.razor_blade {
+    margin: 10px;
+}
+.razor_blade p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.skinfade {
+    margin: 10px;
+}
+.skinfade p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.full_service {
+    margin: 10px;
+}
+.full_service p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.bread_trim {
+    margin: 10px;
+}
+.bread_trim p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.kids_cut {
+    margin: 10px;
+}
+.kids_cut p {
+    color: #b8a269;
+    font-weight: bold;
+}
+.our-service a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.our-service a:hover {
+    color: #ffffffa1;
+    text-decoration: underline #b8a269;
+}
+.our_benefit {
+    color: #fff;
+    margin-top: 90px;
+}
+.our_benefit h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.our_benefit p {
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    height: 100px;
+}
+.our_benefit a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.our_benefit a:hover {
+    color: #ffffffa1;
+    text-decoration: underline #b8a269;
+}
+.o_b {
+    display: flex;
+}
+.quality_p {
+    background-image: linear-gradient(rgba(10,10,10,.4)), url(../images/o_ben-1.jpg);
+    background-size: cover;
+    width: calc(100vw/3);
+    padding: 20px;
+    text-transform: uppercase;
+}
+.quality_e {
+    background-image: linear-gradient(rgba(10,10,10,.4)), url(../images/o_ben-2.jpg);
+    background-size: cover;
+    width: calc(100vw/3);
+    padding: 20px;
+    text-transform: uppercase;
+}
+.professional {
+    background-image: linear-gradient(rgba(10,10,10,.4)), url(../images/o_ben-3.jpg);
+    background-size: cover;
+    width: calc(100vw/3);
+    padding: 20px;
+    text-transform: uppercase;
+}
+.line-1::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    margin: 350px 0 10px;
+    background-color: #ffffffa1;
+}
+.line-2::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    margin: 350px 0 10px;
+    background-color: #ffffffa1;
+}
+.line-3::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    margin: 350px 0 10px;
+    background-color: #ffffffa1;
+}
+.end {
+    padding: 90px 300px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.end_a {
+    display: flex;
+}
+.time img {
+    width: 120px;
+    height: 120px;
+}
+.time p {
+    margin: 40px 0;
+    font-size: 16px;
+}
+.time a {
+    color: #fff;
+}
+.time a:hover {
+    color: #ffffffa1;
+}
+.im img {
+    margin-top: 40px;
+    width: 32px;
+    height: 32px;
+}
+.x-t {
+    width: 32px;
+    margin: 0 15px;
+}
+.question img {
+    width: 64px;
+    height: 64px;
+}
+.end-p {
+    font-size: 18px;
+}
+.location {
+    margin: 0 170px;
+}
+.location h1 {
+    font-size: 24px;
+}
+.location h2 {
+    font-size: 20px;
+    margin: 40px 0;
+}
+.sup {
+    font-size: 20px;
+    color: #b8a269;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sup:hover {
+    color: #fff;
+}
+.number {
+    font-size: 20px;
+    color: #b8a269;
+    text-decoration: none;
+    font-weight: bold;
+}
+.question h2 {
+    font-size: 20px;
+}
+.question button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #b8a269;
+    width: 274px;
+    height: 52px;
+    border: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.question button:hover {
+    color: #1a1a1a;
+    background-color: #fff;
+    cursor: pointer;
+}
+.p1 {
+    display: flex;
+}
+.p2 {
+    display: flex;
+}
+.bushed {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.bushed::after {
+    content: "";
+    display: block;
+    width: 1056px;
+    height: 2px;
+    background-color: #ffffffa1;
+}
